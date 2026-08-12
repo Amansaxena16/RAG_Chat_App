@@ -1,0 +1,212 @@
+[
+  {
+    "question": "How many sick days do employees get?",
+    "expected_doc_type": "hr",
+    "answer": "According to the company's policy, employees receive 10 paid sick days per calendar year. These sick days do not carry over to the next year and do not require advance notice. However, for absences longer than 3 consecutive days, a doctor's note may be requested by HR.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Who founded NovaTech and in which city?",
+    "expected_doc_type": "company",
+    "answer": "NovaTech Systems Inc. was founded by Priya Ramanathan and Diego Alvarez in Bengaluru, India, in 2018.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How much total funding has NovaTech raised, and who led the Series B?",
+    "expected_doc_type": "company",
+    "answer": "NovaTech has raised a total of $62 million in funding. The Series B round was led by Blackwood Capital in 2023.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What is NovaTech's stated company mission?",
+    "expected_doc_type": "company",
+    "answer": "NovaTech's stated company mission is \"to make coordinated work feel effortless.\"",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Who is NovaTech's CFO and where is she based?",
+    "expected_doc_type": "company",
+    "answer": "NovaTech's Chief Financial Officer (CFO) is Fatima Khalil, and she is based in Lisbon.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Do engineering managers for each product pod report directly to the CTO Diego Alvarez?",
+    "expected_doc_type": "company",
+    "answer": "No, engineering managers for each product pod do not report directly to Diego Alvarez, the CTO. They actually report to Marcus Chen, the VP of Engineering. Diego is only looped in for architecture decisions that cross pod boundaries.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Which office is he based in?",
+    "expected_doc_type": "company",
+    "answer": "Marcus Chen, the VP of Engineering, is based in Austin.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How much PTO do employees accrue per year, and what is the max carryover?",
+    "expected_doc_type": "hr",
+    "answer": "According to the NovaTech Leave and Time-Off Policy, employees accrue 1.75 days of Paid Time Off (PTO) per month, which totals 21 days per year. The maximum carryover of unused PTO into the next calendar year is 10 days. Any PTO balance beyond this 10-day cap is forfeited on December 31st, unless local law requires otherwise.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How many public holidays does the Lisbon office get compared to Austin?",
+    "expected_doc_type": "hr",
+    "answer": "The Lisbon office gets 13 public holidays per year, while the Austin office gets 8 public holidays per year. So, the Lisbon office gets 5 more public holidays than the Austin office.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How many weeks of parental leave does the secondary caregiver get?",
+    "expected_doc_type": "hr",
+    "answer": "The secondary caregiver is eligible for 8 weeks of fully paid parental leave.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How many years of service are needed to qualify for a sabbatical, and how long is it?",
+    "expected_doc_type": "hr",
+    "answer": "To qualify for a sabbatical at NovaTech, you need to have completed 5 continuous years of service. The sabbatical is 4 weeks long and is fully paid. Additionally, it must be scheduled at least 3 months in advance and coordinated with your manager to ensure coverage.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "And how long can it be split into blocks?",
+    "expected_doc_type": "hr",
+    "answer": "The parental leave can be taken continuously or split into two blocks within the first 12 months after the qualifying event, subject to manager approval on timing.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How much does the Starter plan cost per user per month, and how many users does it support?",
+    "expected_doc_type": "product",
+    "answer": "The Starter plan costs $8 per user per month (billed annually) and supports up to 25 users.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What does the Enterprise plan include that Growth does not?",
+    "expected_doc_type": "product",
+    "answer": "The Enterprise plan includes several features that are not available in the Growth plan. These features are:\n\n1. Single sign-on (SSO) via SAML and SCIM user provisioning.\n2. Unlimited automation rules (the Growth plan is limited to 20 active rules per Space in NovaBoard).\n3. Unlimited version history in NovaSync (the Growth plan has a 90-day version history).\n4. Dedicated customer success manager.\n5. 4-hour response SLA with a named support contact (the Growth plan has a 24-hour response SLA).\n6. Custom data residency options (currently: US, EU, or India).\n7. Audit log export and advanced admin controls.\n\nThese additional features are included in the Enterprise plan, which has custom pricing that is negotiated separately.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How much does extra storage cost as an add-on, and how much storage does it add?",
+    "expected_doc_type": "product",
+    "answer": "The extra storage add-on costs $2 per user per month and adds 50 GB of storage in NovaSync.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Does the nonprofit discount apply to Enterprise plan pricing?",
+    "expected_doc_type": "product",
+    "answer": "No, the nonprofit discount does not apply to Enterprise plan custom pricing. According to the information, verified nonprofit organizations and educational institutions receive 30% off the Growth plan, but this discount does not apply to Enterprise plan custom pricing, which is negotiated separately.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What does NovaBoard's Workload view feature show?",
+    "expected_doc_type": "product",
+    "answer": "NovaBoard's Workload view feature shows how many active cards are assigned to each team member. This helps teams spot overload and better manage their workload.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How long is version history kept in NovaSync on the Growth plan versus Enterprise?",
+    "expected_doc_type": "product",
+    "answer": "On the Growth plan, the version history in NovaSync is kept for 90 days. In contrast, the Enterprise plan keeps the version history indefinitely.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Does that plan include unlimited users?",
+    "expected_doc_type": "product",
+    "answer": "Yes, the Growth plan includes unlimited users.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Which database does NovaChat use for storing messages, and why was it chosen?",
+    "expected_doc_type": "engineering",
+    "answer": "NovaChat uses Cassandra as its database for storing messages. It was chosen for its high write throughput on message history, which is particularly useful for handling the large volume of messages that can be exchanged in a team messaging application.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What service handles authentication and SSO across all three NovaTech products?",
+    "expected_doc_type": "engineering",
+    "answer": "The **Auth Service** handles login, SSO (SAML/SCIM for Enterprise), and session tokens for all three NovaTech products, which are NovaBoard, NovaChat, and NovaSync. It's written in Go and is available as an add-on for Growth and Enterprise plans.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Why does NovaTech skip search indexing entirely for Starter-plan organizations instead of just hiding the search feature?",
+    "expected_doc_type": "engineering",
+    "answer": "NovaTech skips search indexing entirely for Starter-plan organizations instead of just hiding the search feature because of a deliberate cost decision made by Marcus Chen's team in 2023. They found that the Elasticsearch costs for Starter-plan organizations, who couldn't use the search feature anyway, were disproportionate. By skipping indexing, they aimed to reduce these unnecessary costs.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "How are requests routed for an Enterprise customer who chose EU data residency?",
+    "expected_doc_type": "engineering",
+    "answer": "For an Enterprise customer who chose EU data residency, requests are routed to the EU cluster at the API gateway layer. The customer's organization ID maps to the EU as their \"home region\", so all requests are directed to the EU cluster. This ensures that customer data is stored and processed within the chosen region, in accordance with the company's data residency requirements.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What technology evaluates NovaBoard's automation rules asynchronously?",
+    "expected_doc_type": "engineering",
+    "answer": "I don't have information on the specific technology used to evaluate NovaBoard's automation rules asynchronously. The provided context describes the features and functionality of NovaBoard and other NovaTech products but does not detail the underlying technology or architecture used for evaluating automation rules. If you have any other questions about the features or functionality of NovaTech's products, I'd be happy to help.",
+    "retrieval_pass": true,
+    "answer_pass": false
+  },
+  {
+    "question": "Why does NovaChat use Elixir/Phoenix instead of the same stack as NovaBoard?",
+    "expected_doc_type": "engineering",
+    "answer": "I don't have information about the technology stack used by NovaChat or NovaBoard, so I can't provide a specific answer to this question. The context provided doesn't mention the programming languages or frameworks used by NovaTech's products. If you have any other questions about the features or functionality of NovaChat or NovaBoard, I'd be happy to try and help.",
+    "retrieval_pass": true,
+    "answer_pass": false
+  },
+  {
+    "question": "Is the 'Growth plan' referenced in employee onboarding documents the same as the pricing Growth plan?",
+    "expected_doc_type": "product",
+    "answer": "No, the 'Growth plan' referenced in the pricing document and the 'growth plan' in employee onboarding documents are not the same. According to the Note on Terminology, \"Plan\" in the pricing document refers to a NovaTech subscription tier (such as Starter, Growth, or Enterprise), which is unrelated to HR terms like \"leave plan\" or \"ramp plan\" (or \"growth plan\") that describe employee time off and onboarding schedules.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "Which plan is required to use Unified Search, and what underlying service powers it?",
+    "expected_doc_type": "engineering",
+    "answer": "To use Unified Search, your organization needs to be on either the **Growth** or **Enterprise** plan. The Unified Search is powered by the **Unified Search Service**, which indexes content from all three products into a single **Elasticsearch cluster** and exposes it via an internal gRPC API.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  },
+  {
+    "question": "What programming language is NovaBoard's mobile app written in?",
+    "expected_doc_type": null,
+    "answer": "The provided context does not specify the programming language used for NovaBoard's mobile app. It only mentions that NovaBoard has a mobile app, but it's view-only as of the current release. If you need more information, I recommend checking the official NovaTech documentation or contacting their support team.",
+    "retrieval_pass": null,
+    "answer_pass": true
+  },
+  {
+    "question": "What is NovaTech's current stock price?",
+    "expected_doc_type": null,
+    "answer": "I don't have information about NovaTech's current stock price. The provided context does not mention NovaTech being a publicly traded company, and it does not provide any information about its stock price. If you're looking for the most up-to-date and accurate information about NovaTech's stock price, I recommend checking a reliable financial website or contacting the company directly.",
+    "retrieval_pass": null,
+    "answer_pass": true
+  },
+  {
+    "question": "If a company has 100 users on the Growth plan and adds the Advanced Analytics add-on, what's the extra monthly cost for that add-on alone?",
+    "expected_doc_type": "product",
+    "answer": "The Advanced Analytics add-on costs $4/user/month. Since the company has 100 users, the extra monthly cost for the Advanced Analytics add-on would be:\n\n100 users * $4/user/month = $400/month\n\nSo, the extra monthly cost for the Advanced Analytics add-on alone would be $400.",
+    "retrieval_pass": true,
+    "answer_pass": true
+  }
+]

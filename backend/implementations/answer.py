@@ -40,16 +40,8 @@ llm = ChatGroq(temperature=0, model_name=model, groq_api_key=my_api_key)
 def fetch_content(question):
     return retrieval.invoke(question, k=RETRIEVAL_K)
 
-def combined_question(question: str, history: list[dict] = []) -> str:
-    prior = ""
-    for mess in history:
-        if mess['role'] == 'user':
-            prior += mess["content"] + "\n"
-    return prior + question
-
 def answer_question(question: str, history: list[dict] = []) -> tuple[str, list[Document]]:
-    combined = combined_question(question, history)
-    docs = fetch_content(combined)
+    docs = fetch_content(question)
     context = "\n\n".join(doc.page_content for doc in docs)
     system_prompt = SYSTEM_PROMPT.format(context=context)
     messages = [SystemMessage(content=system_prompt)]
